@@ -43,7 +43,7 @@ public class FirstScript {
 			driver.switchTo().window(parentWinHandle);
 		}
 		
-		driver.quit();
+		driver.close();
 	}
 
 }
